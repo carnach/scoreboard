@@ -1,0 +1,11 @@
+{
+  "name": "rd-scoreboard",
+  "description": "",
+  "repository": "https://github.com/carnach/scoreboard",
+  "scripts": {},
+  "env": {},
+  "formation": {},
+  "addons": [],
+  "buildpacks": [],
+  "stack": "heroku-20"
+}
