@@ -1,0 +1,10 @@
+{
+  "name": "rd-scoreboard",
+  "description": "",
+  "scripts": {},
+  "env": {},
+  "formation": {},
+  "addons": [],
+  "buildpacks": [],
+  "stack": "heroku-20"
+}
