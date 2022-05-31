@@ -1,0 +1,21 @@
+version: '3.7'
+services:
+
+  scoreboard:
+    image: scoreboard:5.0.4
+    build: 
+      context: .
+      args:
+        SB_BUILD_VERSION: 5.0.4
+    container_name: scoreboard
+    volumes:
+      - ${PWD}/data/autosave/:/app/config/autosave/
+    ports:
+     - "8005:8000"
+    restart: unless-stopped
+
+
+
+
+  
+

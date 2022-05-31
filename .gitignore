@@ -1,0 +1,8 @@
+secrets/
+*.log
+\.env_pihole
+\.env_cloudflare-ddns
+netbox/
+cardano/
+data/
+users_database.yml
