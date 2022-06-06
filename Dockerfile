@@ -5,8 +5,8 @@ ENV ENV_SB_VERSION=${SB_BUILD_VERSION}
 FROM base_image as builder
 # download precomiled file and extract to temp directory
 WORKDIR /
-RUN yum install -y wget unzip \
-  && wget -q "https://github.com/rollerderby/scoreboard/releases/download/v${ENV_SB_VERSION}/crg-scoreboard_v${ENV_SB_VERSION}.zip" \
+RUN yum install -y wget unzip 
+RUN wget -q "https://github.com/rollerderby/scoreboard/releases/download/v${ENV_SB_VERSION}/crg-scoreboard_v${ENV_SB_VERSION}.zip" \
   && unzip -oq crg-scoreboard_v${ENV_SB_VERSION}.zip
 
 FROM base_image
