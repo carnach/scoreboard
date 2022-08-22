@@ -1,5 +1,5 @@
 FROM openjdk:8u332-jre-buster as base_image
-ARG SB_BUILD_VERSION=5.0.4        #default scoreboard version 
+ARG SB_BUILD_VERSION=5.0.6       #default scoreboard version 
 ENV ENV_SB_VERSION=${SB_BUILD_VERSION}
 
 FROM base_image as builder
